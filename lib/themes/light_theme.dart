@@ -6,7 +6,7 @@ ThemeData lightTheme() {
   final ThemeData base = ThemeData.light();
   return base.copyWith(
     // ignore: deprecated_member_use
-    backgroundColor: Colours.backgroundLight,
+    canvasColor: Colours.backgroundLight,
     scaffoldBackgroundColor: Colours.backgroundLight,
     appBarTheme: const AppBarTheme(
       backgroundColor: Colours.backgroundLight,

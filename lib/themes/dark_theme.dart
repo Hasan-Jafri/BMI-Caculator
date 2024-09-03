@@ -6,7 +6,7 @@ ThemeData darkTheme() {
   final ThemeData base = ThemeData.dark();
   return base.copyWith(
     // ignore: deprecated_member_use
-    backgroundColor: Colours.backgroundDark,
+    canvasColor: Colours.backgroundDark,
     scaffoldBackgroundColor: Colours.backgroundDark,
     appBarTheme: const AppBarTheme(
       backgroundColor: Colours.greyLight,
